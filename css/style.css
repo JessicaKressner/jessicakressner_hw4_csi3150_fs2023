@@ -1,0 +1,87 @@
+/* reset browser default settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* style the entire page */
+body {
+  background-color: grey;
+}
+/* style title of the website */
+#title {
+  text-align: center;
+  background-color: grey;
+  font-size: 60px;
+  padding-bottom: 50px;
+}
+
+/* style the wrapper that wraps the filters and car sections */
+#filtersCars {
+  display: flex;
+  background-color: grey;
+}
+
+/* style the filter and wrapper containers */
+#filtersCars div {
+  margin-right: 5%;
+}
+
+/* style the carcards container */
+.carcards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* style the car container */
+.card {
+  background-color: grey;
+}
+
+/* style each individal car container */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  height: 400px;
+  width: 400px;
+}
+
+/* style each car image */
+.card img {
+  height: 200px;
+  width: 400px;
+}
+
+/* style the purchase car button */
+.card button {
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  width: 100%;
+  font-size: 18px;
+}
+
+/* style the labels */
+.label {
+  font-size: 20px;
+  width: 300px;
+}
+
+/* responsive button design */
+.card button:hover {
+  opacity: 0.7;
+}
+
+/* style the filter divs */
+.filter div {
+  padding-bottom: 20px;
+  width: 300px;
+}
+
+/* style list elements */
+li {
+  list-style-type: none;
+}
